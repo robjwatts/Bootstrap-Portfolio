@@ -1,0 +1,137 @@
+body {
+	font-family: 'Lora', serif;
+	background-image: url(images/cork-wallet.png);
+	margin-bottom: 150px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/*starting the navbar*/
+.navbar-custom {
+	background-color: #fff;
+}
+
+#logo {
+	height: 60px;
+	margin-left: 70px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	background: #4aaaa5;
+	font-size: 24px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #fff;
+}
+
+.navbar-right-custom {
+	padding-top: 6px;
+	padding-right: 20px;
+	font-family: Arial;
+	font-weight: lighter;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #4aaaa5;
+}
+
+/*end of navbar*/
+
+.about-me-header {
+	font-size: 32px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	margin-bottom: 33px;
+	}
+
+.about-me-content > p {
+	font-size: 16px;
+	color: #bbc;
+	line-height: 30px;
+	padding-top: 20px;
+	}
+
+#RobImage {
+	width:200px;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;	
+}
+
+/*Connect With Me Section*/
+
+#connect-with-me-area {
+	background-color: #fff;
+	margin-top: 32px;
+	padding: 30px 30px 43px 30px;
+	width: 100%;
+}
+
+.connect-with-me-header {
+	font-size: 25px;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif' ;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #4aaaa5;
+}
+
+#connect-with-me-photo {
+	height: 55px;
+	width: 55px;
+}
+
+#images {
+	padding-top: 15px;
+	text-align: center;
+}
+
+/*end of the connect me portion*/
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #666;
+	margin-top: 30px;
+	;
+}
+
+.text-muted-footer {
+	margin-top: 15px;
+	color: #fff;
+}
+
+.two-toned-footer-color {
+	height: 6px;
+	padding-top: 3px;
+	background-color: #4aaaa5;
+}
+
+@media only screen
+and (max-width : 767px) {
+
+	.navbar-header {
+		background-color: #4aaaa5;
+	}
+
+	#logo {
+		height: 60px;
+		margin-left: 0px;
+		padding-top: 20px;
+		padding-bottom: 5px;
+		background: #4aaaa5;
+		font-size: 24px;
+		font-family: Georgia, Times, 'Times New Roman', serif;
+		font-weight: bold;
+		color: #fff;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
